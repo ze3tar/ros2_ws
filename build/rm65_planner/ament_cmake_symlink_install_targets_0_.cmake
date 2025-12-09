@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/rm65_planner/librm65_planner.so" "/root/ros2_ws/build/rm65_planner/rm65_plan_path_server" "TARGETS" "rm65_planner" "rm65_plan_path_server" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/rm65_planner")

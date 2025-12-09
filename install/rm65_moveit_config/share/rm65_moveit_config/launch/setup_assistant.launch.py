@@ -1,0 +1,1 @@
+/root/ros2_ws/src/rm65_moveit_config/launch/setup_assistant.launch.py

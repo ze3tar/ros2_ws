@@ -1,0 +1,1 @@
+/root/ros2_ws/build/rm65_moveit_config/ament_cmake_core/rm65_moveit_configConfig.cmake

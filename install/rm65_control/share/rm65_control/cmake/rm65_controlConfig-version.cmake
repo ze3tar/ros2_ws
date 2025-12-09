@@ -1,0 +1,1 @@
+/root/ros2_ws/build/rm65_control/ament_cmake_core/rm65_controlConfig-version.cmake

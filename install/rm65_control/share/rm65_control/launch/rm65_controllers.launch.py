@@ -1,0 +1,1 @@
+/root/ros2_ws/src/rm65_control/launch/rm65_controllers.launch.py

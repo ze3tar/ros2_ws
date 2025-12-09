@@ -1,0 +1,9 @@
+/root/ros2_ws/build/rm65_control/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/rm65_control_uninstall.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/test.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/install.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/install/local.dir
+/root/ros2_ws/build/rm65_control/CMakeFiles/install/strip.dir

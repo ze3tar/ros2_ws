@@ -1,0 +1,1 @@
+/root/ros2_ws/src/rm65_planner/launch/plan_path_server.launch.py

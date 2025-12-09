@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/rm65_planner
+[ 25%] [32mBuilding CXX object CMakeFiles/rm65_planner.dir/src/apf_rrt_planner.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librm65_planner.so[0m
+[ 50%] Built target rm65_planner
+[ 75%] [32mBuilding CXX object CMakeFiles/rm65_plan_path_server.dir/src/plan_path_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rm65_plan_path_server[0m
+[100%] Built target rm65_plan_path_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/rm65_planner/lib/librm65_planner.so
+-- Symlinking: /root/ros2_ws/install/rm65_planner/lib/rm65_planner/rm65_plan_path_server
+-- Symlinking: /root/ros2_ws/install/rm65_planner/include/rm65_planner/apf_rrt_planner.hpp
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/launch/plan_path_server.launch.py
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/library_path.sh
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/library_path.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/package_run_dependencies/rm65_planner
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/parent_prefix_path/rm65_planner
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/package.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/packages/rm65_planner
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/rm65_plannerConfig.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/rm65_plannerConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/package.xml

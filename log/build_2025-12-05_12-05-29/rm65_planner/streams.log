@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/root/ros2_ws/build/rm65_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rm65_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rm65_planner
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.591s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.618s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.666s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.768s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.770s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.874s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.903s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.961s] -- Looking for pthread.h
+[1.042s] -- Looking for pthread.h - found
+[1.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.127s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.129s] -- Found Threads: TRUE  
+[1.211s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.255s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.395s] -- Configuring done
+[1.407s] -- Generating done
+[1.415s] -- Build files have been written to: /root/ros2_ws/build/rm65_planner
+[1.423s] Invoked command in '/root/ros2_ws/build/rm65_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rm65_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rm65_planner
+[1.425s] Invoking command in '/root/ros2_ws/build/rm65_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rm65_planner -- -j6 -l6
+[1.482s] [ 25%] [32mBuilding CXX object CMakeFiles/rm65_planner.dir/src/apf_rrt_planner.cpp.o[0m
+[5.601s] [ 50%] [32m[1mLinking CXX shared library librm65_planner.so[0m
+[5.787s] [ 50%] Built target rm65_planner
+[5.809s] [ 75%] [32mBuilding CXX object CMakeFiles/rm65_plan_path_server.dir/src/plan_path_server.cpp.o[0m
+[8.953s] [100%] [32m[1mLinking CXX executable rm65_plan_path_server[0m
+[9.085s] [100%] Built target rm65_plan_path_server
+[9.098s] Invoked command in '/root/ros2_ws/build/rm65_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rm65_planner -- -j6 -l6
+[9.098s] Invoking command in '/root/ros2_ws/build/rm65_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rm65_planner
+[9.108s] -- Install configuration: ""
+[9.108s] -- Execute custom install script
+[9.108s] -- Symlinking: /root/ros2_ws/install/rm65_planner/lib/librm65_planner.so
+[9.118s] -- Symlinking: /root/ros2_ws/install/rm65_planner/lib/rm65_planner/rm65_plan_path_server
+[9.129s] -- Symlinking: /root/ros2_ws/install/rm65_planner/include/rm65_planner/apf_rrt_planner.hpp
+[9.142s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/launch/plan_path_server.launch.py
+[9.153s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/library_path.sh
+[9.163s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/library_path.dsv
+[9.175s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/package_run_dependencies/rm65_planner
+[9.187s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/parent_prefix_path/rm65_planner
+[9.198s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/ament_prefix_path.sh
+[9.208s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/ament_prefix_path.dsv
+[9.219s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/path.sh
+[9.230s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/environment/path.dsv
+[9.241s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.bash
+[9.251s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.sh
+[9.262s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.zsh
+[9.273s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/local_setup.dsv
+[9.284s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/package.dsv
+[9.295s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/ament_index/resource_index/packages/rm65_planner
+[9.307s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.318s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[9.329s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.338s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/rm65_plannerConfig.cmake
+[9.347s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/cmake/rm65_plannerConfig-version.cmake
+[9.357s] -- Symlinking: /root/ros2_ws/install/rm65_planner/share/rm65_planner/package.xml
+[9.367s] Invoked command in '/root/ros2_ws/build/rm65_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rm65_planner

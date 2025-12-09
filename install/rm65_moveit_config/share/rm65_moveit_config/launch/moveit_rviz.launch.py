@@ -1,0 +1,1 @@
+/root/ros2_ws/src/rm65_moveit_config/launch/moveit_rviz.launch.py

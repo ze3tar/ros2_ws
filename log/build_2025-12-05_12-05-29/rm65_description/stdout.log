@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/rm65_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/urdf/rm_65_6f_description.csv
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/urdf/rm_65_6f_description.urdf
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link1.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link2.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link3.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link4.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link5.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/Link6.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/meshes/base_link.STL
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/launch/display.launch
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/launch/display.launch.py
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/launch/gazebo.launch
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/config/joint_names_rm_65_6f_description.yaml
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/ament_index/resource_index/package_run_dependencies/rm65_description
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/ament_index/resource_index/parent_prefix_path/rm65_description
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/package.dsv
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/ament_index/resource_index/packages/rm65_description
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/cmake/rm65_descriptionConfig.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/cmake/rm65_descriptionConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/rm65_description/share/rm65_description/package.xml

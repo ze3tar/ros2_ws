@@ -1,0 +1,43 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/rm65_control': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rm65_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rm65_control
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.723s] -- Configuring done
+[0.725s] -- Generating done
+[0.727s] -- Build files have been written to: /root/ros2_ws/build/rm65_control
+[0.731s] Invoked command in '/root/ros2_ws/build/rm65_control' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rm65_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rm65_control
+[0.732s] Invoking command in '/root/ros2_ws/build/rm65_control': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rm65_control -- -j6 -l6
+[0.777s] Invoked command in '/root/ros2_ws/build/rm65_control' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/rm65_control -- -j6 -l6
+[0.779s] Invoking command in '/root/ros2_ws/build/rm65_control': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rm65_control
+[0.790s] -- Install configuration: ""
+[0.791s] -- Execute custom install script
+[0.791s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/ros2_controllers.yaml
+[0.803s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/launch/rm65_controllers.launch.py
+[0.814s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/ament_index/resource_index/package_run_dependencies/rm65_control
+[0.826s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/ament_index/resource_index/parent_prefix_path/rm65_control
+[0.843s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/environment/ament_prefix_path.sh
+[0.847s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/environment/ament_prefix_path.dsv
+[0.860s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/environment/path.sh
+[0.871s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/environment/path.dsv
+[0.882s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/local_setup.bash
+[0.892s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/local_setup.sh
+[0.901s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/local_setup.zsh
+[0.910s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/local_setup.dsv
+[0.920s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/package.dsv
+[0.930s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/ament_index/resource_index/packages/rm65_control
+[0.939s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/cmake/rm65_controlConfig.cmake
+[0.953s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/cmake/rm65_controlConfig-version.cmake
+[0.966s] -- Symlinking: /root/ros2_ws/install/rm65_control/share/rm65_control/package.xml
+[0.983s] Invoked command in '/root/ros2_ws/build/rm65_control' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/rm65_description:/root/ros2_ws/install/rm65_planner:/root/ros2_ws/install/rm65_moveit_config:/root/ros2_ws/install/rm65_control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/rm65_control
